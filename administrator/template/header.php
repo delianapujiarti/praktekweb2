@@ -11,13 +11,13 @@
 
     <title>SB Admin 2 - Bootstrap Admin Theme</title>
 
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="template/assets/css/bootstrap.min.css" rel="stylesheet">
 
-    <link href="assets/css/metisMenu.css" rel="stylesheet">
+    <link href="template/assets/css/metisMenu.css" rel="stylesheet">
 
-    <link href="assets/css/sb-admin-2.css" rel="stylesheet">
+    <link href="template/assets/css/sb-admin-2.css" rel="stylesheet">
 
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="template/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
 </head>
 
