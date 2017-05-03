@@ -1,9 +1,9 @@
 <?php 
 include 'view/BerandaUI.php';
 
-$konf = new BerandaUI();
+$brd = new BerandaUI();
 
-$konf->tampilLengkap();
+$brd->tampilLengkap();
 
 
  ?>
