@@ -9,6 +9,7 @@ class BerandaUI extends View
 	
 	public function tampilLengkap()
 	{
+		$nama = "Deliana pujiarti"
 		include_once 'pages/beranda.php';
 		$this->end();
 	}

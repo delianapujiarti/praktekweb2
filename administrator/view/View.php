@@ -19,7 +19,6 @@ class View
 
 	protected function end()
 	{
-		include_once 'sidebar.php';
 		include 'footer.php';
 	}
 	
