@@ -15,7 +15,7 @@ class BeritaUI extends View
 
 		$isi_berita = $brt->ambilBerita();
 
-		include_once 'pages/listberita.php';
+		include_once 'pages/utama.php';
 		$this->end();
 	}
 }
