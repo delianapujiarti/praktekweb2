@@ -19,7 +19,7 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <ul class="list-unstyled">
-                                <li><a href="#">Category Name</a>
+                                <li><a href="#"><?php echo $dt['judul']?></a>
                                 </li>
                                 <li><a href="#">Category Name</a>
                                 </li>
