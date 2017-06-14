@@ -41,7 +41,7 @@ class BeritaManager extends Controller
 
 		include_once 'model/Berita.php';
 		$mb= new Berita();
-		$id_berita = $_GET['id_berita'];
+		$id_berita = $_GET['id'];
 		$judul = $_POST['judul'];
 		$isi = $_POST['isi'];
 		$kategori= $_POST['kategori'];
