@@ -40,18 +40,14 @@ class BeritaManager extends Controller
 	{
 
 		include_once 'model/Berita.php';
-		include_once 'model/Kategori.php';
 		$mb= new Berita();
-		$kat= new Kategori();
 		$id_berita = $_GET['id_berita'];
-		$tanggal = date('Y-m-d');
 		$judul = $_POST['judul'];
 		$isi = $_POST['isi'];
 		$kategori= $_POST['kategori'];
-		$data['berita']=$mb->ubahBerita($id_berita,$tanggal,$judul,$isi,$id_kategori=$kategori);
-		$data['kategori']= $kat->getDaftarKategori();
-
-		return $data;
+		$mb->ubahBerita($id_berita,$judul,$isi,$kategori);
+		
+		return true;
 	}
 }
  ?>

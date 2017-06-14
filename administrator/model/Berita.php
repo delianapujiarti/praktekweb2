@@ -53,7 +53,7 @@ class Berita extends Model
 			}
 	}
 
-	public function ubahBerita($id_berita,$tanggal,$judul,$isi,$id_kategori)
+	public function ubahBerita($id_berita,$judul,$isi,$kategori)
 	{
 		
 		
