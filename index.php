@@ -1,10 +1,10 @@
 <?php 
 
-include 'view/BeritaUI.php';
+include 'view/BukuUI.php';
 
-$brd = new BeritaUI();
+$brd = new BukuUI();
 
-$brd->tampilBerita();
+$brd->tampilBuku();
 
  ?>
 

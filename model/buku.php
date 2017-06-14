@@ -5,10 +5,10 @@
 */
 
 include_once 'Model.php';
-class Berita extends Model
+class buku extends Model
 {
 	
-	public function ambilBerita()
+	public function ambilBuku()
 	{
 		$query = $this->db->prepare("SELECT * FROM berita");
     	$query->execute();
